@@ -1,0 +1,53 @@
+{% assign ordered_date_formatted = 'now' | date: "%b %d" %}
+{% assign order_ready_date_formatted = 'now' | plus: 17500000 | date: "%b %d" %}
+{% assign delivered_date_formatted = 'now' | plus: 17700000 | date: "%b %d" %}
+
+<div class="timeline-section">
+    <div class="timeline-item">
+        <div class="icon">🛍️</div>
+        <div class="text">
+            <p>Ordered</p>
+            <p>{{ ordered_date_formatted }}</p>
+        </div>
+    </div>
+    <div class="timeline-item">
+        <div class="icon">🚚</div>
+        <div class="text">
+            <p>Order Ready</p>
+            <p>{{ order_ready_date_formatted }}</p>
+        </div>
+    </div>
+    <div class="timeline-item">
+        <div class="icon">📍</div>
+        <div class="text">
+            <p>Delivered</p>
+            <p>{{ delivered_date_formatted }}</p>
+        </div>
+    </div>
+</div>
+
+
+<style>
+.timeline-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.timeline-item {
+    text-align: center;
+}
+
+.icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+</style>

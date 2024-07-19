@@ -1,0 +1,689 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "text_wj87Hb": {
+          "type": "text",
+          "settings": {
+            "text": "Have you always dreamed of being on a magazine cover?",
+            "text_style": "subtitle"
+          }
+        },
+        "heading_RYzYdM": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>NOW YOU CAN!<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_wj87Hb",
+        "heading_RYzYdM",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/future_1.png",
+        "image_overlay_opacity": 20,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-d03c86e1-b923-4293-9677-ba602bb5e32c",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "rich_text_pn47An": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XQDhj9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Future Magazine!",
+            "heading_size": "h1"
+          }
+        },
+        "text_LwHerw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This exclusive, high-quality magazine is the perfect present that will surprise and delight your loved ones. <\/p><p>Customized Personal Magazine by Designer – The Perfect Gift for Someone You Love!<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XQDhj9",
+        "text_LwHerw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_product_qybz66": {
+      "type": "featured-product",
+      "blocks": {
+        "text_kTrGiB": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_tyr46f": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_cPWnYK": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_z8Rh9t": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_9bnxUQ": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_UPVBnN": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "fixed_snippet_aHPEyw": {
+          "type": "fixed_snippet",
+          "settings": {
+          }
+        },
+        "share_8kCeDG": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_kTrGiB",
+        "title_tyr46f",
+        "price_cPWnYK",
+        "variant_picker_z8Rh9t",
+        "quantity_selector_9bnxUQ",
+        "buy_buttons_UPVBnN",
+        "fixed_snippet_aHPEyw",
+        "share_8kCeDG"
+      ],
+      "settings": {
+        "product": "custom-personal-magazinepersonalized-53230",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_67UwPB": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rKLpU9": {
+          "type": "heading",
+          "settings": {
+            "heading": "FREE DELIVERY",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rKLpU9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMAGE_2024-07-19_11_25_58.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "image_with_text_AG6ThH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_kE6bFQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "READY IN 48 HOURS",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kE6bFQ"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMAGE_2024-07-19_11_31_44.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "image_with_text_b8d6PR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jB3wfJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "HIGH QUALITY PAPER",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jB3wfJ"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMAGE_2024-07-19_11_35_16.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_RbN4NC": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Most Popular",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "most-popular",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_zPrLAy": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_Kc44H7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YBnA3z": {
+          "type": "heading",
+          "settings": {
+            "heading": "Customize your PERSONAL magazine",
+            "heading_size": "h1"
+          }
+        },
+        "text_yt8YeD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We can create a personal magazine for you, tailored to your unique preferences. Whether you want to add custom text, include personal pictures, or highlight special moments, we have you covered. Our magazine can be personalized to celebrate any occasion, capturing memories and stories that matter to you. Choose from various themes and layouts to make your magazine truly one-of-a-kind.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_rwPJrW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_YBnA3z",
+        "text_yt8YeD",
+        "button_rwPJrW"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/custom_text.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 36
+      }
+    },
+    "video_TXzhkK": {
+      "type": "video",
+      "settings": {
+        "heading": "Discover an inside pages of you future magazine",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/Copy of Copy of Link-Etsy M02 (1).mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "scheme-2",
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_8W3Wxa": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_X9QHfW": {
+          "type": "column",
+          "settings": {
+            "title": "1. Choose the Number of Pages",
+            "text": "<p>Please select the number of pages you want for your custom magazine and proceed with the purchase.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VGpk8W": {
+          "type": "column",
+          "settings": {
+            "title": "2. Receive Detailed Instructions",
+            "text": "<p>Within 24 hours of placing your order, you will receive an email with detailed steps on how to submit your text and pictures. Please ensure your order number is in the subject line.<br\/>We have prepared examples and phrases or magazine articles that you can choose from to make this process as easy as possible for you.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YXzAGg": {
+          "type": "column",
+          "settings": {
+            "title": "3. Review Your Custom Magazine, Make Edits, and Approve",
+            "text": "<p>Within 48 hours, you will receive a watermarked magazine via email for proof. Once approved, printing will take 1-2 business days. Your magazine will be delivered within 5-7 business days.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8AwChk": {
+          "type": "column",
+          "settings": {
+            "title": "4. Track Your order",
+            "text": "<p>After magazine approval, we'll print and ship your product. You will receive a confirmation with tracking number.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_X9QHfW",
+        "column_VGpk8W",
+        "column_YXzAGg",
+        "column_8AwChk"
+      ],
+      "settings": {
+        "title": "How to order ?",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Buy Now",
+        "button_link": "shopify:\/\/collections\/most-popular",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_3eVgLd": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Life's Journey Collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description_style": "subtitle",
+        "collection": "lifes-journey-collection",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_rNcPaN": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_KngM8J": {
+          "type": "heading",
+          "settings": {
+            "heading": "Personilized Gifts",
+            "heading_size": "h1"
+          }
+        },
+        "text_KbAgT7": {
+          "type": "text",
+          "settings": {
+            "text": "The perfect and unique gifts for you loves ones",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_mTbBPT": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Shop All",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KngM8J",
+        "text_KbAgT7",
+        "buttons_mTbBPT"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/aJWb1UaP4Ng.png",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "featured_collection_fWkMJx": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Gift Collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "gift-collection",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_6atUCc": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_mpwBPM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": " What is a custom magazine?",
+            "icon": "clipboard",
+            "row_content": "<p>  A custom magazine is a personalized publication tailored to your preferences, including photos, stories, and unique content about your loved ones or special occasions.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fXH4ky": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How to place an order?",
+            "icon": "clipboard",
+            "row_content": "<p>1. Choose the Number of Pages:<br\/>  - Select the desired number of pages for your custom magazine<br\/><br\/>2. Receive Detailed Instructions:<br\/>- Within 24 hours of placing your order, you will receive an email with detailed steps on how to submit your text and pictures. Please ensure your order number is in the subject line.<br\/>- We have prepared examples and phrases or magazine articles that you can choose from to make this process as easy as possible for you.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eMA9TM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does it take to create and ship my custom magazine?",
+            "icon": "clipboard",
+            "row_content": "<p>Within 48 hours, you will receive a watermarked magazine via email for proof. Once approved, printing will take 1-2 business days. Your magazine will be delivered within 5-7 business days.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fWicwq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I submit photos and information for my magazine?",
+            "icon": "clipboard",
+            "row_content": "<p>After placing your order, you will receive an email with instructions on how to upload your photos and complete the customization form. Please ensure all photos are high resolution (minimum 300 DPI)<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TyrWxG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I review the magazine before it is printed?",
+            "icon": "clipboard",
+            "row_content": "<p>Yes, we will send you a digital  watermarked magazine for review. You have ONE opportunity to edit  design.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ygaNzD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How many picture do I need for magazine?",
+            "icon": "clipboard",
+            "row_content": "<p>You Want = You Need <\/p><p>24 pages = 35+ photos<\/p><p>30 pages = 45+ photos<\/p><p>38 pages = 55+ photos<\/p><p>46 pages = 65+ photos<\/p><p>54 pages = 85 photos<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NNaRKK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I make some edits to the magazine?",
+            "icon": "clipboard",
+            "row_content": "<p>A watermarked magazine will be emailed to you for approval before printing.<br\/>- You have ONE opportunity to edit the design.<br\/>- YOU CAN ADD MORE EDITS FOR 20$ EACH<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xEddx8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the shipping options and costs?",
+            "icon": "clipboard",
+            "row_content": "<p>We offer FREE standard shipping!!!!<\/p><p>Also, you can select express shipping at the check out for an additional 17$<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_btXaC7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I order multiple copies of the same magazine?",
+            "icon": "clipboard",
+            "row_content": "<p>Yes, you can order multiple copies. We are offering 40% off to the next copy if its send to the same address and 30% off if its different addresses<\/p><p>After placing an order just email us for request a 2+ copy.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8cyEfP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "icon": "clipboard",
+            "row_content": "<p>Since our magazines are custom-made, we do not accept returns. However, if there is an error on our part or a defect, please contact us, and we will resolve the issue promptly.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RAXyjr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I contact customer support?",
+            "icon": "clipboard",
+            "row_content": "<p>You can reach our customer support team by emailing [Your Email Address]<\/p><p>We are available to assist you with any questions or concerns.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DkK4DX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What file formats do you accept for photos?",
+            "icon": "clipboard",
+            "row_content": "<p>We accept high-resolution JPEG, PNG, and TIFF files. Please ensure your photos are at least 300 DPI for the best print quality.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_mpwBPM",
+        "collapsible_row_fXH4ky",
+        "collapsible_row_eMA9TM",
+        "collapsible_row_fWicwq",
+        "collapsible_row_TyrWxG",
+        "collapsible_row_ygaNzD",
+        "collapsible_row_NNaRKK",
+        "collapsible_row_xEddx8",
+        "collapsible_row_btXaC7",
+        "collapsible_row_8cyEfP",
+        "collapsible_row_RAXyjr",
+        "collapsible_row_DkK4DX"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "scheme-4",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "contact_form_LCDFix": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Please reach out to us if you have any consern or questions",
+        "heading_size": "h2",
+        "color_scheme": "scheme-1",
+        "padding_top": 72,
+        "padding_bottom": 56
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "rich_text_pn47An",
+    "featured_product_qybz66",
+    "image_with_text_67UwPB",
+    "image_with_text_AG6ThH",
+    "image_with_text_b8d6PR",
+    "featured_collection_RbN4NC",
+    "video_zPrLAy",
+    "image_with_text_Kc44H7",
+    "video_TXzhkK",
+    "multicolumn_8W3Wxa",
+    "featured_collection_3eVgLd",
+    "image_banner_rNcPaN",
+    "featured_collection_fWkMJx",
+    "collapsible_content_6atUCc",
+    "contact_form_LCDFix"
+  ]
+}

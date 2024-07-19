@@ -1,0 +1,167 @@
+ <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+ 
+ 
+ <div id="first-time-modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Free Shipping</h2>
+        <p>On your first order (USA only)</p>
+        {% form 'customer', class: 'newsletter-form'  %}
+            <input type="hidden" name="contact[tags]" value="newsletter">
+            <div class="newsletter-form__field-wrapper">
+               
+                    <input
+                        id="NewsletterForm--{{ section.id }}"
+                        type="email"
+                        name="contact[email]"
+                        class="custom_input"
+                        value="{{ form.email }}"
+                        aria-required="true"
+                        autocorrect="off"
+                        autocapitalize="off"
+                        autocomplete="email"
+                        {% if form.errors %}
+                            autofocus
+                            aria-invalid="true"
+                            aria-describedby="Newsletter-error--{{ section.id }}"
+                        {% elsif form.posted_successfully? %}
+                            aria-describedby="Newsletter-success--{{ section.id }}"
+                        {% endif %}
+                        placeholder="Email"
+                        required
+                    >
+                
+                <button
+                    class="custom_btn"
+                    name="commit"
+                    id="Subscribe"
+                    aria-label="Get Free Shipping"
+                >
+                    GET FREE SHIPPING
+                </button>
+                {%- if form.errors -%}
+                    <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">
+                        {%- render 'icon-error' -%}
+                        {{- form.errors.translated_fields.email | capitalize }}
+                        {{ form.errors.messages.email -}}
+                    </small>
+                {%- endif -%}
+            </div>
+            {%- if form.posted_successfully? -%}
+           
+            {%- endif -%}
+        {% endform %}
+        <p><a style="text-decoration:none; color:black;"href="#" onclick="closeModal()">No,thanks</a></p>
+    </div>
+</div>
+
+<style>
+    #first-time-modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.9);
+        align-items:center;
+        justify-content:center;
+    }
+
+    .modal-content {
+        background-color: #fff;
+        padding: 20px;
+        width: 80%;
+        max-width: 400px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .modal-content h2{
+        font-family: "League Spartan", sans-serif;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .field__input {
+        width: 100%;
+        padding: 8px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 4px;
+    }
+
+    .newsletter-form__field-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .custom_btn{
+      cursor:pointer;
+      height:4.5rem;
+      border-radius:0.5rem;
+      min-width: -webkit-fill-available;
+      margin-top:2rem;
+      background:red;
+      color:white;
+      border:none;
+    }
+
+    .custom_input{
+      color:black;
+      min-width: -webkit-fill-available;
+      height:4.5rem;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {        
+        const  formSubmittedGlobal= localStorage.getItem('formSubmitted');
+    
+        const modalShownSession = sessionStorage.getItem('modalShown');
+
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+        }, 0);
+
+        if (formSubmittedGlobal || modalShownSession) return ;
+
+        setTimeout(function() {
+            document.getElementById('first-time-modal').style.display = 'flex';
+            sessionStorage.setItem('modalShown', 'true');
+        }, 3000); 
+    });
+
+    function closeModal() {
+        document.getElementById('first-time-modal').style.display = 'none';
+    }
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+     
+        const form = document.getElementById('contact_form');
+      
+
+        if (form) {
+            form.addEventListener('submit', function(event) {  
+              localStorage.setItem('formSubmitted', 'true');
+            });
+        }
+    });
+</script> 
